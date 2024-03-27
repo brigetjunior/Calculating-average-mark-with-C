@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    
+	int marks[4];
+	int i;
+	int sum;
+    
+	printf("Enter your marks please\n");
+    
+	for(i = 0; i < 5 ; i++) {
+    	scanf("%d", &marks[i]);
+    	sum += marks[i];
+	}
+    
+	printf("Here's the sum of your marks : %d\nWait please\n", sum);
+	int average_marks = sum / sizeof(marks[i]);
+	printf("Here's your average %d", average_marks);
+    
+	return 0;
